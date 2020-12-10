@@ -1,0 +1,989 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+html {
+    font-size: 14px;
+    font-family: 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif;
+    color: #222222;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+   
+
+}
+
+header {
+    padding: 0 240px;
+    height: 600px;
+    background-image: url("../copy_potepan/copy_potepan_img/top-hero.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+   
+}
+
+.heder-container {
+    height: 60px;
+    width: 100%;
+    
+}
+
+.logo {
+    float: left;
+    width: 180px;
+    margin-top: 25px;
+}
+header ul {
+    float: right;
+    
+}
+
+header ul li{
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 13px;
+    
+}
+    
+header ul li p {
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.link {
+    color: #FFFF;
+    font-size: 12px;
+    background-color: rgb(247,147,20);
+    padding: 14px 22px 10px 22px;
+    border-radius: 30px;
+    position: relative;
+    bottom:10px;
+}
+
+.top-wrapper{
+    position: relative;
+    top:190px;
+}
+
+.logo2{
+    position: absolute;
+    left: 0px;
+    width:340px;
+}
+
+.top-container{
+    font-size: 13px;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    line-height: 20px;
+}
+
+.link-btn {
+    padding: 20px 90px 15px 90px;
+    font-size: 17px;
+    color: #FFFF;
+    background-color: rgb(247,147,20);
+    position: absolute;
+    top: 165px;
+    left: 0px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.top-wrapper p {
+    position: absolute;
+    color: #888888;
+    left: 0px;
+    top: 350px;
+    font-size: 10px;
+}
+.top-container span{
+    color: #F79314;
+}
+.no1 {
+    position: absolute;
+    left: 350px;
+}
+
+
+
+.bottom-container{
+    height: 330px;
+    background-color: rgb(247,147,20);
+    padding: 0 240px;
+    margin:0;
+}
+
+.bottom-container h2 {
+    position: relative;
+    top:90px;
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+}
+
+.bottom-container h2 span {
+    font-size: 37px;
+}
+
+.come {
+    width: 550px;
+    color: #FFFFFF;
+    line-height: 30px;
+    font-weight: bold;
+    position: relative;
+    top:90px;
+}
+
+.about-btn {
+    font-weight: bold;
+    color: #F79314;
+    height: 45px;
+    width: 325px;
+    background-color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+    left: 720px;
+    border-radius: 30px;
+    padding-top: 15px;
+    
+}
+
+.about-btn span {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+
+
+
+.about-wrapper{
+    height: 2600px;
+    padding:0px 240px;
+    background-color: #FFFFFF;
+}
+
+.about-container{
+    height: 260px;
+    align-items: center;
+}
+
+.about-container h1{
+    width:100%;
+    font-size: 46px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-weight: 900;
+}
+
+.choice {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    
+}
+
+.about-container::after {
+    content: '';
+    display: block;
+    border-bottom: solid 6px #f79314;
+    width: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+
+}
+
+.contents {
+    height: 2017px;
+    
+}
+.content01{
+    height: 675px;
+}
+
+.content02 {
+    height: 495px;
+}
+
+.content03 {
+    height: 590px;
+}
+.content {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content h1 {
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+    color:#f79314 ;
+    height:50px;
+    width:100px;
+    border-radius: 100px 100px 0 0;
+    -moz-border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 100px 100px 0 0;
+    margin: 0 auto;
+    background-color: #FCFAF5;
+    padding-top:30px;
+    line-height: 15px;
+}
+
+.inner-content {
+    padding: 40px;
+    background-color: #FCFAF5;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+
+.inner-content h2 {
+    font-size: 30px;
+}
+
+.inner-content p {
+    font-size: 16px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.content01 h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content02 p span {
+    font-size: 30px;
+    color:#f79314;
+    font-weight: 900;
+}
+
+.company {
+    height: 400px;
+    width: 965px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 45px auto 0px auto;
+}
+.company li {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.company h3 {
+    font-size: 24px;
+    display: inline-block;
+}
+
+.cmp-chara {
+    height: auto;
+    width:34px;
+    margin-left: 10px;
+}
+
+.company li::after{
+     content: '';
+    display: block;
+    border: solid 2px #f79314;
+    background-color: #f79314;
+    margin-top: 5px;
+}
+
+.example-company{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.company-img {
+    width: 185px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.graphs {
+    height: 275px;
+    width: 965px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 45px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.graph{
+    height: 195px;
+    width: auto;
+    margin-top: 40px;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.content03 span {
+    font-size: 30px;
+    color:#f79314;
+    font-weight: 900;
+}
+
+.interviews {
+    height: 365px;
+    margin-top: 45px;
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interview {
+    height: 365px;
+    width: calc(100%/3);
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 15px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.engneer-company {
+    object-fit: cover;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.engineer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.engineer-logo{
+    height: 100px;
+    padding-top: 40px;
+}
+
+.engineer-icon{
+    margin-left: -10px;
+}
+
+.cmp-name {
+    font-size: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    text-align: start;
+    line-height: 1;
+    justify-content: space-between;
+}
+
+.cmp-name span {
+    color:#f79314;
+    font-weight: 900;
+    font-size: 14px;
+    white-space: nowrap;
+    line-height: 1;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.engineer-interview {
+    background-color: #F6F6F6;
+    position: relative;
+    right: 20px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.engineer-interview::before{
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #F6F6F6;
+    border-left: 15px solid transparent;
+  }
+
+.engineer-interview p {
+    font-size: 13px;
+    line-height: 1.5;
+    display: block;
+    text-align: start;
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+
+.course-wrapper{
+    height: 840px;
+    padding:0px 240px;
+    background-color: #F6F6F6;
+    display: block;
+}
+
+.course-container h2{
+    width:100%;
+    font-size: 46px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    font-weight: 900;
+}
+
+.course-container p{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.course-container::after{
+    content: '';
+    display: block;
+    border-bottom: solid 6px #f79314;
+    width: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+}
+
+.course{
+    height: 170px;
+    width:100%;
+    background-color: #FFFFFF;
+    margin: 40px auto;
+    position: relative;
+    top:140px;
+}
+
+.course-box{
+    height: 105px;
+    width: 290px;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+    margin-left: -20px;
+    border: 3px solid #FF6D00;
+    margin-right: 30px;
+    
+}
+
+.course-box h2{
+    padding: 20px 23px;
+    
+}
+.course-inner{
+    text-align: start;
+}
+.course-inner h3 {
+    color: #F79314;
+    display: block;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.conditions{
+    background-color: #414141;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 2px 20px;
+    border-radius: 20px;
+}
+
+.condition::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: #f79214;
+    margin: 0 10px;
+}
+
+.condition {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.course-link {
+float: right;
+position: relative;
+right: 30px;
+font-size: 12px;
+color: #999999;
+font-weight: 800;
+}
+
+.course-link::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 4px;
+    right: -18px;
+    border-right: solid 3px #f79214;
+    border-top: solid 3px #f79214;
+    transform: rotate(45deg);
+}
+
+.course-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto;
+    background-color: #f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    top: 150px;
+   line-height: 25px;
+   letter-spacing: 5px;
+}
+
+.course-btn span{
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+
+
+.think{
+    height: 785px;
+    padding:0px 240px;
+    background-color: #FCFAF5; 
+    display: block;
+}
+
+.think-container h2{
+    width:100%;
+    font-size: 46px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.think-container{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.think-container::after{
+    content: '';
+    display: block;
+    border-bottom: solid 6px #f79314;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.message-container{
+    height: 415px;
+    width: 740px;
+    padding-left:20px;
+    margin-top: 90px;
+    background-color: #FFFFFF;
+    
+}
+
+.message-container h3{
+    font-size: 50px;
+    color:#f79314 ;
+    position: relative;
+    top: -40px;
+    font-weight: 900;
+}
+
+.ceo-message {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    padding-left: 20px;
+    padding-right: 150px;
+}
+
+.ceo{
+    width: 400px;
+    height: 240px;
+    background-image: url("copy_potepan_img/message-thumbnail.png");
+    float: right;
+    position: relative;
+    bottom: 280px;
+    left: 300px;
+}
+
+.ceo p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    line-height: 36px;
+}
+
+.ceo p span {
+    font-size: 24px;
+}
+
+
+
+.student-interviews{
+    height: 930px;
+    padding:0px 240px;
+    display: block;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+}
+
+.students-head{
+    position: relative;
+    top: -30px;
+}
+
+.students-head h2{
+    width: 250px;
+    font-size: 46px;
+    font-weight: 900;
+    
+    margin: 0 auto;
+}
+
+.stu-sub-head{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 900;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.stu-sub-head::after{
+    content: '';
+    display: block;
+    border-bottom: solid 6px #f79314;
+    width: 50px;
+    margin: 20px auto 0 auto;
+}
+
+.student-interview{
+    text-align: center;
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    width: 320px;
+    display: inline-block;
+    justify-content: space-between;
+    position: relative;
+}
+
+.os-pic{
+    /*background-image: url("copy_potepan_img/大村さんポテパンダ.png");
+    background-size: cover;
+    background-position: center;*/
+    height: 320px;
+    width: 100%;
+}
+
+.kc-pic{
+    /*background-image: url("copy_potepan_img/梶原さん.jpg");
+    background-size: cover;
+    background-position: center;*/
+    height: 320px;
+    width: 100%;
+    
+}
+
+.sk-pic{
+    /*background-image: url("copy_potepan_img/庄司さん.jpg");
+    background-size: cover;
+    background-position: center;*/
+    height: 320px;
+    width: 100%;
+  
+}
+
+.title{
+position: absolute;
+    bottom: 120px;
+    left: 0;
+    right: 0;
+    padding: 80px 20px 15px;
+}
+
+.carrer{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 1.8;
+    text-align: start;
+}
+
+.student-class{
+    font-size: 16px;
+    color: #f79314;
+    font-weight: 900;
+    text-align: start;
+    border-bottom: #FFFFFF solid 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.student-name{
+    font-size:20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.student-name span{
+    font-size:12px;
+    color: #FFFFFF;
+}
+
+.student-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    margin: 0 auto;
+    background-color: #f79314;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    top: 150px;
+   line-height: 25px;
+   letter-spacing: 5px;
+}
+
+.student-btn span{
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+.service-container{
+    height: 640px;
+    padding:0px 240px;
+    background-color: #F6F6F6;
+    display: block;
+}
+
+.service-top h2{
+    width:100%;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 90px;
+    /*position: relative;
+    top: 90px;*/
+    font-weight: 900;
+}
+
+.service-top p{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 10px;
+    /*position: relative;
+    top: 100px;*/
+}
+
+.service-top::after{
+    content: '';
+    display: block;
+    border-bottom: solid 6px #f79314;
+    width: 50px;
+    margin: 0 auto;
+    padding-top: 20px;
+    /*position: relative;
+    top: 120px;*/
+}
+
+.services{
+    margin-top: 60px;
+    margin-left: -20px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service{
+    list-style: none;
+    width: calc(100%/3);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.service img{
+    width: 100%;
+}
+
+.service-border{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 0 20px;
+    height: 190px;
+    box-sizing: border-box;
+}
+
+.orange{
+    border-color: #fc6803;
+}
+
+.green{
+    border-color: #08af77;
+}
+
+.black{
+    border-color: black;
+}
+
+.service p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 700;
+}
+
+footer{
+    height: 460px;
+    padding:0px 240px;
+    background-color:  rgb(247,147,20);
+    display: block;
+}
+
+.footer-main{
+    display: inline-flex;
+}
+
+.footer-left{
+    display: block;
+    order: 1;
+}
+
+.footer-logo{
+    width: 280px;
+    height: 30px;
+    margin-top: 80px;
+}
+
+.footer-company p{
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-address{
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-sns {
+    padding-top: 40px;
+}
+.footer-sns a{
+    padding-right: 20px;
+}
+
+.sns{
+    height: 60px;
+    width: 60px;
+}
+
+.footer-link{
+    display: block;
+    order:2;
+    margin-left: 220px;
+    margin-top: 85px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    list-style: none;
+}
+
+.footer-link span{
+    font-weight: 400;
+}
+
+.footer-link li{
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+.footer-chara{
+    display: block;
+    order: 3;
+    margin-left: 230px;
+    margin-top: 300px;
+}
+.footer-chara img{
+    width: 120px;
+    height: 70px;
+}
+
+.last{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
